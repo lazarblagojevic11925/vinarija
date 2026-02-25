@@ -1,0 +1,368 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face{
+	src: url("../fonts/NotoSans-Regular.ttf");
+	font-family:NS;
+}
+body{
+	background-color: #31170e;
+	font-family: NS;
+}
+ul {
+	list-style-type: none;
+}
+
+#navbar{
+	background-color: #31170e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: sticky;
+	top: 0;
+}
+
+#navbar ul li {
+	display: inline;
+	margin: 0px 40px;
+	font-size: 20px;
+}
+#navbar ul li:last-child{
+
+	margin: 0px 80px 0px 40px;
+}
+#navbar ul li:first-child{
+
+	margin: 0px 40px 0px 80px;
+}
+
+a {
+	text-decoration: none;
+		color: #f4f0ea;
+}
+a:hover {
+  color: #ca9466;
+}
+
+
+#navbar a img{
+	width: 250px;
+}
+/* 1 */
+
+#baner{
+	background-image: url(../img/vinograd.jpg) ;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 620px;
+    width: 100%;
+    background-size: cover;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+	color: #f4f0ea;
+	font-size: 40px;
+}
+#container{
+	margin:60px 0px ;
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+#bl{
+
+	margin-left: 60px;
+	text-align:left;
+}
+#bl p{
+	font-size: 20px;
+	color: #ca9466;
+	max-width: 700px;
+	margin-bottom: 60px;
+}
+#bl h2{
+	color: #535647;
+	font-style: italic;
+	margin: 0px;
+}
+#bl h3{
+	color: #f4f0ea;
+	font-size: 40px;
+	margin: 40px 0px;
+}
+
+#bd{
+
+	margin-right: 60px;
+}
+#bd img{
+	height: 626px;
+	border-radius: 20px 0px;
+}
+
+h4 { 
+	color: #f4f0ea;
+	font-style: italic;
+	text-align: center;
+	font-size: 40px;
+}
+
+.izdvajamo{
+	display: flex;
+	justify-content: center;
+
+	gap: 45px;
+	flex-wrap: wrap;
+}
+.izdb{
+	max-width: 500px;
+}
+
+.izdb img{
+	width: 500px;
+	border-radius: 20px 0px;
+}
+
+.izdb p{
+	color: #ca9466;
+	font-size: 17px;
+}
+
+.zeleno{
+	color: #535647;
+	font-style: italic;
+	
+}
+
+.belo{
+	color: #f4f0ea;
+}
+
+.dugme{
+	text-align: center;
+	color: #f4f0ea;
+	padding: 20px;
+	background-color:#535647;
+	font-size: 20px;
+	width: 240px;
+	border-radius: 20px;
+}
+
+#drzac{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 60px;
+}
+.logofooter{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	background-color: #535647;
+}
+.logofooter img{
+	width: 250px;
+}
+
+.footer {
+	font-size: 20px;
+	color: #ca9466;
+	padding: 60px 0px;
+	display: flex;
+	justify-content: center;
+	gap: 160px;
+	
+	background-color: #31170e;
+}
+
+.footer span{
+	color: #535647;
+	font-style: italic;
+}
+
+.footer span hr{
+	border: solid 3px #535647;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+
+/* СТРАНИЦА ПИЋА */
+h1, h2 {
+	font-size: 40px;
+	margin: 60px 0px;
+	color: #f4f0ea;
+	text-align: center;
+}
+.sekcija-pice {
+	display: flex;
+	justify-content: center;
+	gap:30px;
+	flex-wrap: wrap;
+}
+
+.sekcija-pice img{
+	width: 320px;
+	
+}
+.sekcija-pice p{
+	font-weight: bold;
+	width: 320px;
+	color: #ca9466;
+	font-size: 17px;
+}
+
+
+.wrap{
+	margin: 60px 0px;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	gap:60px;
+	flex-wrap: wrap;
+}
+.textdesno{
+	text-align: right;
+}
+.textlevo{
+	text-align: left;
+}
+
+.raddesno{
+	border-radius: 20px 0px;
+}
+.radlevo{
+	border-radius: 0px 20px;
+}
+
+.cena{
+	color: #f4f0ea;
+	font-size: 24px;
+}
+
+/* stranica o nama */
+
+.on-wrap{
+	margin: 60px 0px;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	gap:60px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.on-wrap img{
+	width: 400px;
+}
+
+.ontext{
+	font-weight: bold;
+	color: #ca9466;
+	font-size: 24px;
+	width:450px;
+}
+
+.ontext span{
+	color: #f4f0ea;
+}
+
+/* stranica o autoru */
+
+
+.oa-wrap{
+	margin: 60px 0px;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	gap:60px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.oa-wrap img{
+  width:220px;
+}
+
+
+/* stranica kontakt */
+
+
+#kontakt-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 60px;
+}
+
+#kontakt-levo{
+	width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+
+
+#kontakt-desno img{
+	height: 500px;
+	border-radius: 20px;
+}
+
+#kontakt-levo-naslov h2{
+	color: #535647;
+	font-size: 24px;
+	margin: 0px 0px 5px 0px;
+}
+
+#kontakt-levo-naslov hr{
+	border: solid 3px #535647;
+	border-radius: 10px;
+	width: 400px
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+	outline: none;
+    padding-left: 25px;
+    border-radius: 50px;
+	color: #f4f0ea;
+	font-size: 20px;
+}
+
+#kontakt-levo textarea{
+	height: 140px;
+	padding-top: 15px;
+	border-radius: 20px;
+	font-family: NS;
+}
+
+.contact-inputs:focus{
+	border: 3px solid #ca9466;
+} 
+
+#kontakt-levo button{
+	padding: 20px;
+	font-family: NS;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #f4f0ea;
+	background-color:#535647;
+	border: none;
+}
+
+.ikonice{
+	color: #f4f0ea;
+	font-size: 30px;
+}
